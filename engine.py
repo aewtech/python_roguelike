@@ -44,7 +44,7 @@ def main():
         libtcod.console_flush()
 
         clear_all(con, entities)
-
+        # this is a test edit for github
         action = handle_keys(key)
 
         move = action.get('move')
